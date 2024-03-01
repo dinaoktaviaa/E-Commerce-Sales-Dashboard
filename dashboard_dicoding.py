@@ -12,11 +12,11 @@ sns.set(style='dark')
 # 1. Gathering Data
 
 # Membaca data csv
-df_orders = pd.read_csv("/Users/dinaoktv/Documents/PROYEK/DICODING ANALIS DATA/archive/olist_orders_dataset.csv")
-df_payments = pd.read_csv("/Users/dinaoktv/Documents/PROYEK/DICODING ANALIS DATA/archive/olist_order_payments_dataset.csv")
-df_items = pd.read_csv("/Users/dinaoktv/Documents/PROYEK/DICODING ANALIS DATA/archive/olist_order_items_dataset.csv")
-df_products = pd.read_csv("/Users/dinaoktv/Documents/PROYEK/DICODING ANALIS DATA/archive/olist_products_dataset.csv")
-df_customers = pd.read_csv("/Users/dinaoktv/Documents/PROYEK/DICODING ANALIS DATA/archive/olist_customers_dataset.csv")
+df_orders = pd.read_csv("data_1_orders.csv")
+df_payments = pd.read_csv("data_2_payments.csv")
+df_items = pd.read_csv("data_3_items.csv")
+df_products = pd.read_csv("data_4_products.csv")
+df_customers = pd.read_csv("data_5_customers.csv")
 
 
 # Penggabungan data "df_orders" dengan "df_payments". Untuk primary key: "order_id" dan foreign key dari data "df_payments"
