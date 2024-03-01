@@ -4,7 +4,7 @@
 ```
 create conda -n dataanalyst python=3.11.5
 conda activate dataanalyst
-pip install pandas scikit_learn scipy numpy matplotlib seaborn streamlit babel
+pip install pandas scipy numpy matplotlib seaborn streamlit babel
 ```
 
 ## Run Streamlit App
